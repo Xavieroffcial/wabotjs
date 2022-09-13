@@ -15,17 +15,17 @@ const opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.set = {
     opts: opts,
     prefix: new RegExp('^[' + (opts['prefix'] || '‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']'),
-    name: "MyWA BOT",
+    name: "Elaina BOT",
     version: "1.0.1",
-    dev: "Amirul Dev",
+    dev: "ShiroNoMercy",
     desc: "Made by Dikode Team",
     browser: "firefox",
-    wm: "MyWA BOT By Amirul Dev",
-    pack: `🔥 NADIA BOT • IG: AMIRUL.DEV 🔥`,
+    wm: "Elaina BOT By ShiroNoMercy",
+    pack: `🔥 ELAINA BOT • IG: SHIRO 🔥`,
     auth: ``,
     owner: [
-        ['687852104', 'Amirul Dev ࿐', true, 'Founder Dikode 🔥', 'amirul@skyn.tech', 'https://amiruldev.my.id', 'MyWA BOT Developer'],
-        ['6285772679192', 'Nadia Cans ツ', true, 'CS Dikode', 'nadia@dikode-team.com', 'https://nadia.id', 'MyWA BOT Developer']
+        ['6383862006229', 'ShiroNoMercy ࿐', true, 'Founder Dikode 🔥', 'amirul@skyn.tech', 'https://amiruldev.my.id', 'MyWA BOT Developer'],
+        ['6285811440426', 'Elaina BOT ツ', true, 'CS Dikode', 'nadia@dikode-team.com', 'https://nadia.id', 'MyWA BOT Developer']
     ],
     mods: [],
     prems: [],
